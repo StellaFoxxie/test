@@ -9,7 +9,7 @@ function draw() {
   //
   translate(width/2,height/2);
   rotate(arrr/2);
-  hexBackground(sin(arrr)*400,cos(arrr)*400,sin(arrr/6)/30);
+  hexBackground(sin(arrr/2)*400,cos(arrr)*400,sin(arrr/6)/30);
 }
 
 function hexBackground(X,Y,R) {
